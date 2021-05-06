@@ -1,0 +1,10 @@
+--add-modules
+  foo
+
+--add-opens
+  foo/foo=org.junit.platform.commons
+--add-opens
+  foo/foo.sub=org.junit.platform.commons
+
+--add-reads
+  foo=org.junit.jupiter.api
